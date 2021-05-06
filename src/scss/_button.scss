@@ -1,0 +1,18 @@
+.button {
+    background: #34B2FF;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 10px;
+    padding: 5px;
+    margin: 10px;
+    line-height: 30px;
+
+    &:active, &:focus {
+        outline: none;
+    }
+
+}

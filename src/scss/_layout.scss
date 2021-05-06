@@ -1,0 +1,115 @@
+
+.container {
+    margin: 0 auto;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.flex-center {
+    justify-content: center;
+}
+
+.flex-space-around {
+    justify-content: space-around;
+}
+
+.flex-space-evenly {
+    justify-content: space-evenly;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.col-11 {
+    width: 91.5333333333%;
+}
+
+.col-10 {
+    width: 83.0666666667%;
+}
+
+.col-9 {
+    width: 74.6%;
+}
+
+.col-8 {
+    width: 66.1333333333%;
+}
+
+.col-7 {
+    width: 57.6666666667%;
+}
+
+.col-6 {
+    width: 49.2%;
+}
+
+.col-5 {
+    width: 40.7333333333%;
+}
+
+.col-4 {
+    width: 32.2333333333%;
+}
+
+.col-3 {
+    width: 23.8%;
+}
+
+.col-2 {
+    width: 15.3333333333%;
+}
+
+.col-1 {
+    width: 6.8666666667%;
+}
+
+.black {
+    border: 1px solid #000;
+}
+
+@media only screen and (min-width: $small) {
+    .container {
+        width: 540px;
+    }
+}
+
+@media only screen and (min-width: $medium) {
+    .container {
+        width: 720px;
+    }
+}
+
+@media only screen and (min-width: $large) {
+    .container {
+        width: 960px;
+    }
+}
+
+@media only screen and (min-width: $extralarge) {
+    .container {
+        width: 1170px;
+    }
+}
+
+@media only screen and (max-width: $small) {
+    .container {
+        width: 90%;
+    }
+    .row {
+        // width: 100%;
+        justify-content: center;
+    }
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+        width: 100%;
+    }
+}

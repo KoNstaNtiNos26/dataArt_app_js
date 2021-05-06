@@ -1,0 +1,2 @@
+export const FOUND_LIST = "FOUND_LIST::NEXT_LIST";
+export const IS_FOUNDED = "FOUND_LIST::IS_FOUNDED";

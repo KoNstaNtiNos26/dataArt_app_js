@@ -1,0 +1,17 @@
+.book {
+    width: 100%;
+    // border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: lightsteelblue;
+
+    &_selected {
+        background-color: blue;
+        color: white;
+    }
+
+    &_read {
+        background-color: green;
+        color: white;
+    }
+}
